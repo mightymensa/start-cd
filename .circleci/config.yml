@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: 'Say hello'
+          name: 'Say hello!'
           command: |
             aws configure set aws_session_token "FwoGZXIvYXdzEA4aDH8g7EMc0/Sh9j4wfyLVAXIW0jFRKc7pI56rOm+lqknHYUVNKSGEwhj580vuok/jum1uASPKl1XirGou0OScAEIEwQkvg4EZuJrmGnuKsD1HuWIygoIAz6YYN0FrwZYqrvfdJyGM5NYurPOfcT/Eq927voHifRlwN3IqeyB+RwxO21cjasuZazdoYwr1ZjD/uhXKhIS1p0UatDQyahoDJoIn/aAKEirqZn0ZA8eESehAYSOz4EmTZ2A7M/u7KIMCa2xCNfsm64/o9C4gRvG+VMToZo6q7pwhUNRstkqM73QlONDG+yi/76yWBjItXTxF06PTF64MhSTKdzH1C81Ws6RpGxUyjJ5i7qavvirGJyf76CdLxgfGPfL6" --profile default
             echo 'Hello, World!'
